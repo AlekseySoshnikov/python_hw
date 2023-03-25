@@ -8,7 +8,7 @@ def sum(a, b):
     if a == b == 0:
         return 0
     if a == b:
-        return sum(a - 1, b - 1) + 2
+        return sum(a - 1, b - 1) + 1 + 1
     elif a > b:
         return sum(a - 1, b) + 1
     else:
